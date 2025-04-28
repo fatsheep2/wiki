@@ -1,0 +1,14 @@
+caption: {{$:/language/codemirror6/wordCount/caption}}
+caption-zh: {{$:/language/codemirror6/zh/wordCount/caption}}
+created: 20250428195133513
+creator: fatsheep
+description: {{$:/language/codemirror6/wordCount/description}}
+description-zh: {{$:/language/codemirror6/zh/wordCount/description}}
+id: 16
+modified: 20250428195133513
+modifier: fatsheep
+settings-group: general
+settings-template: input-switch
+title: $:/config/codemirror-6/wordCount
+
+yes

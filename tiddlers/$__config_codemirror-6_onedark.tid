@@ -1,0 +1,14 @@
+caption: {{$:/language/codemirror6/onedark/caption}}
+caption-zh: {{$:/language/codemirror6/zh/onedark/caption}}
+created: 20250428195255841
+creator: fatsheep
+description: {{$:/language/codemirror6/onedark/description}}
+description-zh: {{$:/language/codemirror6/zh/onedark/description}}
+id: 21
+modified: 20250428195259042
+modifier: fatsheep
+settings-group: general
+settings-template: input-switch
+title: $:/config/codemirror-6/onedark
+
+yes

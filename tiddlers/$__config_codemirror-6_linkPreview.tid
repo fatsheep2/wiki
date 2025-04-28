@@ -1,0 +1,14 @@
+caption: {{$:/language/codemirror6/linkPreview/caption}}
+caption-zh: {{$:/language/codemirror6/zh/linkPreview/caption}}
+created: 20250428195129564
+creator: fatsheep
+description: {{$:/language/codemirror6/linkPreview/description}}
+description-zh: {{$:/language/codemirror6/zh/linkPreview/description}}
+id: 13
+modified: 20250428195129564
+modifier: fatsheep
+settings-group: general
+settings-template: input-switch
+title: $:/config/codemirror-6/linkPreview
+
+yes

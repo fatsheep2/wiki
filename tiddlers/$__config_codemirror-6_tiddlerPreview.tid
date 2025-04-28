@@ -1,0 +1,14 @@
+caption: {{$:/language/codemirror6/tiddlerPreview/caption}}
+caption-zh: {{$:/language/codemirror6/zh/tiddlerPreview/caption}}
+created: 20250428195122382
+creator: fatsheep
+description: {{$:/language/codemirror6/tiddlerPreview/description}}
+description-zh: {{$:/language/codemirror6/zh/tiddlerPreview/description}}
+id: 11
+modified: 20250428195122382
+modifier: fatsheep
+settings-group: general
+settings-template: input-switch
+title: $:/config/codemirror-6/tiddlerPreview
+
+yes
