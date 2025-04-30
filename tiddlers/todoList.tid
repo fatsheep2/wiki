@@ -1,10 +1,22 @@
 created: 20250430010833154
 creator: fatsheep
-modified: 20250430011155784
+modified: 20250430050140013
 modifier: fatsheep
 tags: todo
 title: todoList
 
-<<todolist-ui caption:"待办事项" width:"" base:"">>
-* 添加交易对
-* 修改币池到期仍然显示冻结问题
+! 未完成的任务
+
+//拖动任务以重新排序//
+
+<<list-tagged-draggable tag:"task" subFilter:"!has[draft.of]!tag[done]" itemTemplate:"TaskManagementExampleDraggableTemplate" emptyMessage:"无待办任务">>
+
+! 已完成的任务
+
+//(依相反顺串行出完成的)//
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[modified]]">
+<div>
+<$checkbox tag="done"> ~~<$link><<toc-caption>></$link>~~</$checkbox>
+</div>
+</$list>
