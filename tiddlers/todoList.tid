@@ -1,6 +1,6 @@
 created: 20250430010833154
 creator: fatsheep
-modified: 20250430163532307
+modified: 20250430173645937
 modifier: fatsheep
 tags: todo
 title: todoList
@@ -23,6 +23,6 @@ title: todoList
 
 
 
-<$list filter="Work Home Projects" variable=prj>
+<$list filter="工作 个人 项目" variable=prj>
 <$macrocall $name=todolist-ui base=<<prj>> caption="""<h2 style="color:darkred;font-weight:lighter;"><<prj>></h2>""" />
 </$list>
