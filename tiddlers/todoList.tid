@@ -1,6 +1,6 @@
 created: 20250430010833154
 creator: fatsheep
-modified: 20250430050140013
+modified: 20250430163532307
 modifier: fatsheep
 tags: todo
 title: todoList
@@ -19,4 +19,10 @@ title: todoList
 <div>
 <$checkbox tag="done"> ~~<$link><<toc-caption>></$link>~~</$checkbox>
 </div>
+</$list>
+
+
+
+<$list filter="Work Home Projects" variable=prj>
+<$macrocall $name=todolist-ui base=<<prj>> caption="""<h2 style="color:darkred;font-weight:lighter;"><<prj>></h2>""" />
 </$list>
