@@ -1,0 +1,10 @@
+created: 20250430010833154
+creator: fatsheep
+modified: 20250430011155784
+modifier: fatsheep
+tags: todo
+title: todoList
+
+<<todolist-ui caption:"待办事项" width:"" base:"">>
+* 添加交易对
+* 修改币池到期仍然显示冻结问题
