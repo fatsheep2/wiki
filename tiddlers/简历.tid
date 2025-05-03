@@ -1,0 +1,166 @@
+created: 20250503211528962
+creator: fatsheep
+css: 
+modified: 20250503214832406
+modifier: fatsheep
+tags: resume
+title: 简历
+
+<style>
+/* 简历外观样式 */
+.resume {
+    background-color: $color-background; /* 温和的背景色 */
+    color: $color-foreground; /* 深灰色文字 */
+    border-radius: 12px; /* 圆角 */
+    padding: 20px; /* 内边距 */
+    margin: 20px; /* 外边距 */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 更深的阴影 */
+    transition: transform 0.3s; /* 动画效果 */
+}
+
+.resume:hover {
+    transform: scale(1.02); /* 悬停时放大效果 */
+}
+
+h1 {
+    font-size: 32px; /* 大标题 */
+    color: #007bff; /* 蓝色标题 */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px; /* 中标题 */
+    margin-top: 20px; /* 上边距 */
+    color: #0056b3; /* 深蓝色 */
+}
+
+h3 {
+    font-size: 24px; /* 小标题 */
+    color: #444; /* 深灰色 */
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none; /* 去掉点 */
+    padding-left: 0; /* 去掉左边距 */
+    margin: 0; /* 去掉外边距 */
+}
+
+li {
+    margin-bottom: 12px; /* 项目间距 */
+}
+
+.left, .right {
+    display: inline-block; /* 并排显示 */
+    width: 48%; /* 分配宽度 */
+    vertical-align: top; /* 顶部对齐 */
+}
+
+.left {
+    margin-right: 4%; /* 左侧排版 */
+}
+
+.right {
+    text-align: right; /* 右侧文本对齐 */
+}
+
+a {
+    text-decoration: none; /* 去掉下划线 */
+    color: #007bff; /* 蓝色链接 */
+    transition: color 0.3s; /* 动画效果 */
+}
+
+a:hover {
+    color: #0056b3; /* 悬停时变深 */
+}
+</style>
+
+<div class="resume">
+    <h1>赵鑫洋 - 远程工作</h1>
+
+    <div class="left">
+        <strong>男/2002.6</strong><br>
+        <strong>微信:</strong> zy1677883418
+    </div>
+    <div class="right">
+        <a href="https://blog.lystu.cn">[blog]</a>
+        <a href="https://github.com/1677883418">[github]</a> 1677883418
+    </div>
+
+    <h2>技能</h2>
+    <ul>
+        <li><strong>编程语言</strong>：熟练掌握 <code>Java</code> 和 <code>Python</code> 等编程语言，具备高效的代码编写和调试能力，能够独立进行复杂服务的开发。</li>
+        <li><strong>数据库管理</strong>：精通 <code>MySQL</code> 和 <code>Redis</code> 等数据库，具备数据建模和优化的能力，能够进行高并发环境下的数据存取与管理。</li>
+        <li><strong>人工智能与机器学习</strong>：熟悉 <code>CUDA</code> 编程和深度学习框架，能运用相关技术进行模型训练与优化，掌握常用算法和工具，了解 <code>TensorFlow</code> 和 <code>PyTorch</code> 的应用，具备一定的实践经验。</li>
+        <li><strong>操作系统和云计算</strong>：熟练使用 <code>Linux</code>，掌握系统管理，具备云服务器的部署和管理经验，拥有多年的 <code>Arch Linux</code> 使用经验。</li>
+        <li><strong>软件开发与架构</strong>：熟悉微服务架构设计，能使用 <code>Docker</code> 和 <code>Kubernetes</code> 进行容器化部署，提升应用的可扩展性和可靠性。</li>
+        <li><strong>版本控制与协作</strong>：熟练使用 <code>Git</code> 进行版本控制，能有效参与代码审查和项目管理，确保代码质量和进度。</li>
+        <li><strong>前端</strong>：熟练使用 <code>HTML</code>、<code>CSS</code>、<code>JavaScript</code> 前端三件套，应用 <code>Vue</code> 框架，并有丰富的小程序开发能力。</li>
+    </ul>
+
+    <h2>项目</h2>
+
+    <h3>Юмай - 外贸车辆电商系统</h3>
+    <strong>时间</strong>: 2023年9月 - 2023年12月
+    <ul>
+        <li><strong>项目描述</strong>: 参与开发 Юмай 外贸车辆电商系统，致力于为俄语用户提供便捷高效的二手车买卖服务，支持多语言和多货币交易。</li>
+        <li><strong>关键职责</strong>:
+            <ul>
+                <li>需求分析与系统设计，与团队协作制定系统设计文档。</li>
+                <li>使用 <code>Java</code> 和 <code>Python</code> 进行前后端功能开发，设计 RESTful API。</li>
+                <li>使用 <code>MySQL</code> 进行数据库管理和优化，实施高效数据库查询。</li>
+                <li>使用 <code>Docker</code> 和 <code>Kubernetes</code> 进行云服务平台部署。</li>
+                <li>使用 <code>Git</code> 进行版本控制，参与敏捷开发流程。</li>
+                <li>通过监测日志分析进行性能优化。</li>
+            </ul>
+        </li>
+        <li><strong>项目成果</strong>:
+            <ul>
+                <li>上线后吸引大量用户，月均访问量达到 50,000。</li>
+                <li>用户满意度提高至 92%，系统交易成功率达到 85%。</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>初心cake蛋糕外送-电商购物系统</h3>
+    <strong>时间</strong>: 2021年1月 - 至今
+    <ul>
+        <li><strong>项目描述</strong>: 提供蛋糕店商品的购买与支付模块，负责后端开发与运维。</li>
+        <li><strong>工作内容</strong>:
+            <ul>
+                <li>对商品详情页实施 <code>Redis</code> 缓存策略，提升用户体验。</li>
+                <li>使用 <code>Maven</code> 进行项目管理，有效管理模块依赖。</li>
+                <li>通过 <code>CDN</code> 部署商品图片，实现动静分离，优化页面加载速度。</li>
+                <li>配置 <code>Nginx</code> 实现系统性能提升。</li>
+                <li>进行系统性能监测与优化，确保高可用性。</li>
+            </ul>
+        </li>
+        <li><strong>项目成果</strong>:
+            <ul>
+                <li>累计服务用户超过 45,000 人次，网络请求达 1,150,000 次。</li>
+                <li>实现高可用性与稳定性，提升用户满意度。</li>
+            </ul>
+        </li>
+    </ul>
+
+<h2>教育背景</h2>
+<div class="left">
+    <strong>天山职业技术大学 - 大数据技术与应用</strong>
+</div>
+<div class="right">
+    <strong>2020.09 - 2024.06</strong> 本科
+</div>
+<h2>荣誉奖项</h2>
+<div class="left">
+    <strong>全国大学生能力挑战杯 省三</strong>
+</div>
+<div class="right">
+    <strong>2021-12</strong>
+</div>
+<div class="left">
+    <strong>蓝桥杯-Java-B组 省二</strong>
+</div>
+<div class="right">
+    <strong>2022-05</strong>
+</div>
+</div>
