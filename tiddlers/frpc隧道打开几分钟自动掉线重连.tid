@@ -1,0 +1,36 @@
+created: 20250503190704728
+creator: fatsheep
+modified: 20250503200134545
+modifier: fatsheep
+tags: frp 内网穿透
+title: frpc隧道打开几分钟自动掉线重连
+
+!! 情况说明
+* 只使用了示例配置,只使用了一条tcp隧道,没有涉及到端口复用
+
+!! 参考文章 
+参考:[[给总断线的朋友们一点小建议。]]
+
+省流:参考上面内容没解决
+
+!! 尝试 
+
+!!!  怀疑是服务器距离较远,链接质量不好 /我还怀疑了机器上的[[tailscale]],害怕会是这个影响了
+
+* 买了一台回国优化的vps,新装的系统并且延时不到50,问题没有解决
+
+!!! 查看上面的文章,怀疑是端口复用的问题 
+*  去掉相关设置,问题没有解决
+
+!!! 问题三: 怀疑是kcp/quic使用udp流量,被运营商直接干掉了 
+* 去掉所有的kcp/quic设置,问题依然出现
+
+---
+!! 问题解决
+!!!  怀疑是连接池或者其他优化项有问题,逐一注释后重启服务测试
+* 注释掉下面配置后问题解决,官方注释不推荐修改默认值,但问题是也没有修改默认值,不过注释后问题解决了,就懒得管了
+```toml
+# Heartbeat configure, it's not recommended to modify the default value 
+# The default value of heartbeatTimeout is 90. Set negative value to disable it.
+transport.heartbeatTimeout = 90
+```
