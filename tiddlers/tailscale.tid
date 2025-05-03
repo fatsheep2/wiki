@@ -1,0 +1,25 @@
+created: 20250503201709787
+creator: fatsheep
+modified: 20250503204554032
+modifier: fatsheep
+title: tailscale
+
+!! 好用的[[异地组网]]软件,类似于[[zerotier]]的一个软件,同时有社区开源实现:[[headscale]],如果没有服务器,可以使用这种软件来异地组网
+
+!! [[官网介绍|https://tailscale.com/]]
+>Tailscale makes secure networking easy
+>Achieve point-to-point network connectivity that enforces least privilege.
+
+!! 优势
+* 可以完全自建([[headscale]]),同时可以通过自建derper来实现辅助打洞和中继流量,作为不能直连时候的保底措施
+* 使用WireGuard作为底层协议,理论上快速,方便(udp),打洞成功率非常高,如果一方有公网或者有ipv6,或者双方有upnp(不保证是)基本上都可以通
+* 与[[zerotier]]相比,自建的面板可以看到所有的节点,并且可以使用prekey一键加入网络并设置参数,建议配合[[headscale-admin||https://github.com/GoodiesHQ/headscale-admin]]项目使用([[zerotier]]以前需要手动同意,目前也可以实现join后自动接入网络)
+
+!! 劣势
+* 在天朝没有中继服务器,导致不能直连的情况下延迟很高,最近的中继服务器也在香港,日本和新加坡之类的地方,实际使用比较依赖自建服务器
+* 哪怕是直连,看起来延迟并不高,实际上互相传输文件之类的情况下,速度也低的吓人(kb)
+* WireGuard的特征已经被识别(经常被用于翻墙)并且可能有几家运营商对于udp的干扰,导致连接质量很差很差,表现为ping会时不时丢包
+* 使用上,由于选择的是`100.64.x.x` ip段(官方仅支持这个ip段,自建也是不建议修改)会导致很多意想不到的问题,包括但是不限于
+** 导致阿里云使用cdn的项目直接连接超时,如:[[记一次 tailscale 与 阿里云内网冲突|https://juejin.cn/post/7229923818348331045]]
+** 无法与localsend、钢铁雄心等软件或游戏联用,具体表现为游戏内点击搜索局域网不会显示服务器,需要手动输入ip地址(与[[zerotier]]不同的是，因为软件选择的网段不属于默认局域网段,所以大部分软件不识别)
+

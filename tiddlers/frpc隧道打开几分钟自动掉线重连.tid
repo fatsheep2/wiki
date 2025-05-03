@@ -1,11 +1,12 @@
 created: 20250503190704728
 creator: fatsheep
-modified: 20250503200134545
+modified: 20250503201305094
 modifier: fatsheep
 tags: frp 内网穿透
 title: frpc隧道打开几分钟自动掉线重连
 
 !! 情况说明
+
 * 只使用了示例配置,只使用了一条tcp隧道,没有涉及到端口复用
 
 !! 参考文章 

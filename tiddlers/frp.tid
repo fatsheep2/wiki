@@ -1,6 +1,12 @@
 created: 20250503200749337
 creator: fatsheep
-modified: 20250503200946484
+modified: 20250503201630785
 modifier: fatsheep
-tags: frp 内网穿透
+tags: 内网穿透
 title: frp
+
+!!一个好用的[[内网穿透]]软件,但是必须要拥有一个有公网ip的服务器
+
+!! 一些文章:
+<<list-links "[tag[frp]]">>
+
