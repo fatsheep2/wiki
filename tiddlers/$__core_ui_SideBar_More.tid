@@ -1,9 +1,9 @@
 caption: {{$:/language/SideBar/More/Caption}}
 created: 20250430235602649
 creator: fatsheep
-modified: 20250430235602649
+modified: 20250503205828897
 modifier: fatsheep
-tags: 
+tags: $:/tags/SideBar
 title: $:/core/ui/SideBar/More
 
 \whitespace trim
