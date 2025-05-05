@@ -1,9 +1,16 @@
 created: 20250428185220828
 creator: fatsheep
 icon: 
-modified: 20250505200829212
+modified: 20250505222154505
 modifier: fatsheep
 tags: BlockChain
 title: 区块链
 
+!! 什么是区块链?
 [[区块链入门指南|https://guide.pseudoyu.com/zh/]]
+
+!! 去中心化学习网站
+* [[decert.me|https://decert.me/tutorial/solidity/tools/metamask]]
+
+!! 有趣的应用推荐
+{{区块链有趣的应用}}
