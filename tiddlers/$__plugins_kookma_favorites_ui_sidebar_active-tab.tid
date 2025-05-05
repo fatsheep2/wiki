@@ -2,9 +2,9 @@ caption: Favorites
 created: 20250430235602650
 creator: fatsheep
 list-after: $:/core/ui/SideBar/Open
-modified: 20250503205828898
+modified: 20250505224730847
 modifier: fatsheep
-tags: $:/tags/SideBar
+tags: 
 title: $:/plugins/kookma/favorites/ui/sidebar/active-tab
 type: text/vnd.tiddlywiki
 
