@@ -1,0 +1,14 @@
+created: 20210630032456175
+list: 编程
+modified: 20230312150318598
+tags: Examples
+title: 计算机科学核心知识体系
+tmap.edges: {"51d3e795-c0c9-4b82-bd73-69217e3fd612":{"to":"e97f73d2-21fa-49c8-b806-2f34e5e30744","type":"Category"},"13789425-6874-454a-adbd-2f4836eaa684":{"to":"54c90f0b-cbb6-4443-a9ac-9debdea05d79","type":"Category"},"7b37f1ef-d6ec-4aa9-b8b3-0260bdc00480":{"to":"f55c6066-f962-418a-87a0-080cdb7146cc","type":"Category"},"c3ead63d-0ffe-4c03-87df-9c7c8405da4d":{"to":"0b18238e-21d1-46bf-8b41-181bbd088927","type":"Category"},"eadcc250-ff50-4de9-9ffc-67d8e985eae0":{"to":"13e3e6d5-9c1b-4ae4-a8b4-343178393be1","type":"Category"},"71b70837-7ebb-4b18-9651-19dca3b3764e":{"to":"ccc1254a-99ff-4fcd-be61-b26942e0c90d","type":"Category"},"946a780d-af2d-4842-a243-fe3f516c90d6":{"to":"fd0d3de7-d967-4d0a-b745-2ef7a44544d9","type":"Category"},"7b6d1f9f-5c87-40ad-b6ce-6c90c20fdf1e":{"to":"b95429f4-df9d-42cb-9413-137453be7d92","type":"Category"},"8d069f3d-14bf-47f4-adf6-de003bdef833":{"to":"198bcb4a-f4d0-403c-8f8c-42fae94ddec8","type":"Category"}}
+tmap.id: 8607590a-1d9a-43db-a580-53cb4818c0a8
+type: text/vnd.tiddlywiki
+
+内容来自 [[自学计算机科学|https://github.com/keithnull/TeachYourselfCS-CN]]。如果无法访问 GitHub，可以访问文章 [[计算机科学核心知识体系|https://blog.csdn.net/qq_42672770/article/details/106729891]]。感谢作者！
+
+
+<$tmap view="计算机科学核心知识体系" editor="advanced" height="600px" ></$tmap>
+

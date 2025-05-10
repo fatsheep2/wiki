@@ -1,0 +1,26 @@
+created: 20230321185535369
+modified: 20230329123047605
+tags: 数据结构 考研408
+title: 数据结构
+tmap.id: 1eadcae1-6b2d-48f6-8929-6e6d4551dce4
+type: text/vnd.tiddlywiki
+
+! 数据结构
+---
+<$echarts $tiddler="$:/plugins/Gk0Wk/echarts/addons/TheBrain.js" aliasField="caption" levels=2 focussedTiddler="数据结构" graphTitle="数据结构" $height="500px"/>
+
+!!概要
+*考察方向：数据结构主要涉及数据组织、存储和管理，教学重点在于数据结构的实现原理、应用场景和基本算法。可以考察以下方向：
+
+** 基本数据结构：数组、链表、栈、队列、树、图、散列表等； 
+
+** 常用算法：排序、查找、遍历、动态规划、贪心等； 
+
+** 高级数据结构：堆、红黑树、B+树、并查集等。
+
+*作用：数据结构是计算机科学的核心课程之一，是其他课程的基础。掌握数据结构可以提高算法设计和程序开发的效率，对于编写高效代码、解决实际问题具有重要的作用。
+
+---
+
+!!目录索引
+
