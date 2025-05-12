@@ -1,0 +1,11 @@
+created: 20250512220543533
+creator: fatsheep
+modified: 20250512223410713
+modifier: fatsheep
+title: 内网穿透
+
+例如常用的[[cloudflare tunnel]]和[[frp]],通过有公网ip的服务器对端口流量进行转发,从而实现了从 外网/公网 访问到 局域网资源/主机 的目标
+
+{{内网穿透的优势}}
+
+{{内网穿透的劣势}}
